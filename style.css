@@ -130,7 +130,7 @@ main {
 
 .ntp-logo {
   width: 272px;
-  height: 200px;
+  height: 190px;
   z-index: 1;
   margin-bottom: 38px;
   display: flex;
@@ -269,7 +269,7 @@ main {
   justify-content: space-between;
   align-items: center;
   margin-top: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   padding: 0px 25px;
   position: absolute;
   bottom: 0;
@@ -281,6 +281,10 @@ main {
   gap: 10px;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
+}
+
+.content-footer .link img {
+  width: 18px;
 }
 
 .content-footer .link a {
@@ -297,6 +301,7 @@ main {
 }
 .lapiz .fas {
   color: white;
+  font-size: 12px;
 }
 
 .lapiz:hover {
